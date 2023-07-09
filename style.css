@@ -26,6 +26,8 @@ body {
     font-size: 40px;
 }
 
+/* Menu Style */
+
 .menu ul {
     display: flex;
     gap: 30px;
@@ -39,7 +41,8 @@ body {
     transition: .2s ease;
     padding: 10px;
 }
-.menu ul li a{
+
+.menu ul li a {
     text-decoration: none;
     color: black;
 }
@@ -52,6 +55,7 @@ body {
 }
 
 /* Banner style */
+
 .banner-container {
     display: flex;
     justify-content: right;
@@ -64,7 +68,8 @@ body {
     background-size: cover;
     padding-right: 100px;
 }
-.banner-container-two{
+
+.banner-container-two {
     display: flex;
     justify-content: right;
     align-items: center;
@@ -72,11 +77,12 @@ body {
     height: 100vh;
     background: url("./images/banner/banner2.png");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-size: cover;
     padding-right: 100px;
 }
-.banner-container-three{
+
+.banner-container-three {
     display: flex;
     justify-content: right;
     align-items: center;
@@ -84,7 +90,7 @@ body {
     height: 100vh;
     background: url("./images/banner/banner3.png");
     background-repeat: no-repeat;
-    background-position: center top; 
+    background-position: center top;
     background-size: cover;
     padding-right: 100px;
 }
@@ -95,6 +101,7 @@ body {
     font-size: 65px;
     font-weight: 700;
 }
+
 .banner-title-white {
     color: #fff;
     text-align: right;
@@ -110,6 +117,7 @@ body {
     line-height: 26px;
     margin-top: 24px;
 }
+
 .banner-description-white {
     color: #fff;
     text-align: right;
@@ -119,6 +127,8 @@ body {
     margin-top: 24px;
 }
 
+/* Banner Button Style */
+
 .banner-button-orange {
     color: #FFF;
     text-align: right;
@@ -126,29 +136,36 @@ body {
     font-size: 20px;
     display: block;
     font-weight: 600;
-    border: 1px solid #F15B22 ;
+    border: 1px solid #F15B22;
     padding: 20px 25px;
     border-radius: 5px;
     background: #F15B22;
     float: right;
     transition: .2s ease-in-out;
 }
-.banner-button-orange:hover{
+
+.banner-button-orange:hover {
     border: 1px solid #F15B22;
     background-color: #FFF;
     color: #F15B22;
 }
-.banner-button-white{
+
+.banner-button-white {
     color: #005FAC;
     text-align: right;
     margin-top: 32px;
     font-size: 20px;
     display: block;
     font-weight: 600;
-    border: 1px solid white ;
+    border: 1px solid white;
     background: white;
     padding: 20px 25px;
     border-radius: 5px;
     float: right;
     transition: .2s ease-in-out;
+}
+.banner-button-white:hover{
+    border: 1px solid #005FAC;
+    color: #fff;
+    background-color: #005FAC;
 }
