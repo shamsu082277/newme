@@ -39,6 +39,10 @@ body {
     transition: .2s ease;
     padding: 10px;
 }
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
 
 .menu ul li:hover {
     font-size: 20px;
@@ -52,6 +56,7 @@ body {
     display: flex;
     justify-content: right;
     align-items: center;
+    flex-direction: right;
     height: 100vh;
     background: url("./images/banner/banner1.png");
     background-repeat: no-repeat;
@@ -59,9 +64,39 @@ body {
     background-size: cover;
     padding-right: 100px;
 }
+.banner-container-two{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: right;
+    height: 100vh;
+    background: url("./images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    padding-right: 100px;
+}
+.banner-container-three{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: right;
+    height: 100vh;
+    background: url("./images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: cover;
+    padding-right: 100px;
+}
 
 .banner-title {
     color: #151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-title-white {
+    color: #fff;
     text-align: right;
     font-size: 65px;
     font-weight: 700;
@@ -75,16 +110,45 @@ body {
     line-height: 26px;
     margin-top: 24px;
 }
+.banner-description-white {
+    color: #fff;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
 
-.banner-button-one {
+.banner-button-orange {
     color: #FFF;
     text-align: right;
     margin-top: 32px;
     font-size: 20px;
     display: block;
     font-weight: 600;
-    border: 0;
+    border: 1px solid #F15B22 ;
     padding: 20px 25px;
     border-radius: 5px;
     background: #F15B22;
+    float: right;
+    transition: .2s ease-in-out;
+}
+.banner-button-orange:hover{
+    border: 1px solid #F15B22;
+    background-color: #FFF;
+    color: #F15B22;
+}
+.banner-button-white{
+    color: #005FAC;
+    text-align: right;
+    margin-top: 32px;
+    font-size: 20px;
+    display: block;
+    font-weight: 600;
+    border: 1px solid white ;
+    background: white;
+    padding: 20px 25px;
+    border-radius: 5px;
+    float: right;
+    transition: .2s ease-in-out;
 }
