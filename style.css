@@ -1,60 +1,19 @@
+/* Google font link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+/* Universal code start */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Universal font */
 body {
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
+/* Universal code end */
 
-/* Navigation style */
-
-.navigation-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 100px;
-    background-color: rgba(255, 255, 255, 0.277);
-}
-
-.logo a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 40px;
-}
-
-/* Menu Style */
-
-.menu ul {
-    display: flex;
-    gap: 30px;
-
-}
-
-.menu ul li {
-    list-style: none;
-    font-size: 18px;
-    font-weight: 700;
-    transition: .2s ease;
-
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 15px;
-}
-
-.menu ul li a:hover {
-    cursor: pointer;
-    background-color: rgba(239, 239, 239, 0.776);
-
-}
-
-/* Banner style */
+/* Banner style start */
 
 .banner-container {
     display: flex;
@@ -69,32 +28,6 @@ body {
     padding-right: 100px;
 }
 
-.banner-container-two {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    flex-direction: right;
-    height: 100vh;
-    background: url("./images/banner/banner2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-right: 100px;
-}
-
-.banner-container-three {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    flex-direction: right;
-    height: 100vh;
-    background: url("./images/banner/banner3.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    padding-right: 100px;
-}
-
 .banner-title {
     color: #151414;
     text-align: right;
@@ -102,24 +35,8 @@ body {
     font-weight: 700;
 }
 
-.banner-title-white {
-    color: #fff;
-    text-align: right;
-    font-size: 65px;
-    font-weight: 700;
-}
-
 .banner-description {
     color: #444343;
-    text-align: right;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-top: 24px;
-}
-
-.banner-description-white {
-    color: #fff;
     text-align: right;
     font-size: 16px;
     font-weight: 400;
@@ -149,34 +66,16 @@ body {
     background-color: #FFF;
     color: #F15B22;
 }
+/* Banner style end */
 
-.banner-button-white {
-    color: #005FAC;
-    text-align: right;
-    margin-top: 32px;
-    font-size: 20px;
-    display: block;
-    font-weight: 600;
-    border: 1px solid white;
-    background: white;
-    padding: 20px 25px;
-    border-radius: 5px;
-    float: right;
-    transition: .2s ease-in-out;
-}
 
-.banner-button-white:hover {
-    border: 1px solid #fff;
-    color: #fff;
-    background-color: #005FAC;
-}
-
-/* Section style */
+/*All Section style*/
 section {
-    margin: 140px 0;
+    margin: 150px 0;
 }
 
-/* My function edit */
+
+/* My failures section style start */
 
 .my-failures-container {
     display: flex;
@@ -219,8 +118,9 @@ section {
     color: #16D887;
     margin-right: 10px;
 }
+/* My failures section style end */
 
-/* My plan style */
+/* My plans section style start */
 .my-plans {
     height: 40vh;
     padding: 0px 100px;
@@ -261,8 +161,9 @@ section {
     font-size: 25px;
     font-weight: 500;
 }
+/* My plans section style end*/
 
-/* Call now banner style  */
+/* Call now banner style start  */
 
 .call-now-banner {
     margin-right: 100px;
@@ -296,21 +197,23 @@ section {
     font-weight: 600;
     border: hidden;
 }
+/* Call now banner style start  */
 
-/* Footer style */
+/* Footer style start*/
 
 footer {
-    margin-top: 140px;
     padding: 140px 100px 50px 100px;
     background-color: #151414;
-    
+
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer-content{
+
+.footer-content {
     width: 50%;
 }
 
@@ -348,7 +251,7 @@ footer {
 .social-icon img {
     margin: 5px;
 }
-
+/* Subscribe form style start */
 .subscribe-title {
     color: #FFF;
     font-size: 25px;
@@ -379,11 +282,13 @@ footer {
     font-size: 20px;
     font-weight: 600;
     display: block;
-
 }
+/* Subscribe form style end */
 
-.copywrite-text{
+/* Copywrite text style */
+.copywrite-text {
     color: #ffffff9e;
     text-align: center;
     margin-top: 50px;
 }
+/* Footer style end*/
